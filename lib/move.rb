@@ -10,5 +10,5 @@ def get_index(pos)
   pos.to_i - 1
 end
 
-def move(board, index, value = "X")
-  board[index] = "#{pos}"
+def move(board, pos, value = "X")
+  board[index] = "#{value}"
