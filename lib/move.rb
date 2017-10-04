@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def get_index(pos)
-  index = pos - 1
+  pos.to_i - 1
 end
 
 def move(board, index, value = "X")
