@@ -12,3 +12,4 @@ end
 
 def move(board, pos, value = "X")
   board[index] = "#{value}"
+end
